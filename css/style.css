@@ -103,7 +103,7 @@ padding:0 15px;}
     display:none;
     padding:24px 0;
     gap:40px;
-    display: flex;
+
     list-style: none;
     font-style:normal;
         }
@@ -190,7 +190,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1 );
 .contact{
     display:none;
     font-style: normal;
-    display: flex; 
+    
  align-items: center;  }
 
 
