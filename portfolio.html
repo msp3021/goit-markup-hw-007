@@ -17,12 +17,22 @@ integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkc
   </head>
   <body>
    
-    <header class="header">
+    <header class="header header-portfolio">
       
       <div class="logo-nav-address container">
       <nav class="logo-nav">
         <a class="logo link" href="./index.html">Web<span class="logo-part">Studio</span></a>
      
+        <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="menu-hamburger" width="32" height="22">
+          <use href="./images/icons.svg#icon-menu-hamburger"></use>
+        </svg>
+      </button>
+
           <ul class="menu">
             <li><a class="page-description link" href="./index.html">Studio</a></li>
           <li><a class="link underline" href="./portfolio.html">Portfolio</a></li>
@@ -309,6 +319,14 @@ integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkc
     </div>
   </div>
 </footer>
+
+<script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
 
