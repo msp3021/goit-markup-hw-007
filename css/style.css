@@ -96,7 +96,7 @@ padding:0 15px;}
   .logo-nav-address{
       display:flex;
       padding: 0 15px;
-      gap:332px; }
+     gap:100px; }
   
   
   
@@ -129,7 +129,7 @@ font-style:normal;
     display:none;
 }   
 .container {
-    width: 428px;
+    max-width: 428px;
      margin: 0 auto;
   }
 
@@ -143,7 +143,7 @@ font-style:normal;
    align-items: center;
 justify-content: space-between;
 padding:24px 0;
-gap:150px;}
+gap:100px;}
 
 
   .menu-toggle {
@@ -296,7 +296,7 @@ gap:150px;}
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
           ),
-          url("../images/Dark-bg-2-2.jpg");
+          url("../images/background.jpg");
         width: 100%;
         height: 432px;
         background-position: center;
@@ -306,6 +306,23 @@ gap:150px;}
         padding: 112px 0;
       }
    
+      @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+          .hero {
+              background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)),
+              url("../images/Dark-bg-2-2.jpg");
+          }
+      }
+
+
+
+
+
+
+
+
    .hero-title{
     color:#ffffff;
     font-size: 36px;
@@ -559,6 +576,7 @@ gap:150px;}
     flex-direction: column;
     justify-content: center;
     gap: 72px;
+   
     }
 .goals-box{
     display:block;
@@ -826,7 +844,7 @@ color: var(--off-white);
     gap: 24px; 
 }
 .footer-input{
-    width: 398px;
+    width: 350px;
     height: 40px;
     border: 1px solid #ffffff;
     border-radius: 4px;
@@ -1009,7 +1027,7 @@ font-weight: 700;
 /* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
     .container{
-        width:768px;
+        max-width:768px;
     }
 
 .logo-nav-address{
@@ -1194,9 +1212,8 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1 );
 .footer-social-media{
     text-align: left;
 }
-.footer-social{
-    margin-top: 30px; 
-}
+
+
 .subscribe{
     text-align: left;   
 }
@@ -1235,8 +1252,8 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1 );
     max-width:356px;
 }
 
-}
 
+}
 
 
 
@@ -1266,7 +1283,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1 );
 /* ================================================= DESKTOP 👇 ========================================= */
 @media screen and (min-width: 1200px) {
     .container{
-        width:1158px;
+       max-width:1158px;
     }
 
     .section{
@@ -1444,7 +1461,9 @@ margin:0 auto;
    
     gap:24px;
 }
-
+.footer-input{
+    width: 396px;
+    height: 40px;}
 
 .main-section{
     padding: 96px 0 120px 0; 
