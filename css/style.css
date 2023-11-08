@@ -96,10 +96,9 @@ padding:0 15px;}
   .logo-nav-address{
       display:flex;
       padding: 0 15px;
-     gap:100px; }
+   }
   
-  
-  
+ 
   
   .logo{
       margin-right: 76px;}
@@ -117,6 +116,10 @@ padding:0 15px;}
 /* ================================================= MOBILE 👇 ========================================= */
 @media screen and (min-width: 320px) {
 
+    .container {
+       max-width: 428px;
+         margin: 0 auto;
+      }
 
 .menu{
 display:none;
@@ -128,10 +131,7 @@ font-style:normal;
 .contact{
     display:none;
 }   
-.container {
-    max-width: 428px;
-     margin: 0 auto;
-  }
+
 
   .section {
     padding: 96px 0;
@@ -143,7 +143,7 @@ font-style:normal;
    align-items: center;
 justify-content: space-between;
 padding:24px 0;
-gap:120px;}
+gap:60px;}
 
 
   .menu-toggle {
@@ -844,7 +844,7 @@ color: var(--off-white);
     gap: 24px; 
 }
 .footer-input{
-    width: 350px;
+    width: 310px;
     height: 40px;
     border: 1px solid #ffffff;
     border-radius: 4px;
